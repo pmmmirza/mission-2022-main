@@ -1,6 +1,32 @@
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
+
+body p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    background: black;
+    color: whitesmoke;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 
 h1 {
     font-size: 50px;
@@ -51,9 +77,9 @@ h3 {
 }
 
 .misson-vission-goals {
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
@@ -75,7 +101,29 @@ h3 {
     background-color: khaki;
 }
 
+#mission-extreme {
+    text-align: center;
+    background-image: url(images/shapes/shape-6.png);
+    background-color: cadetblue;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 150px;
+}
+
 footer {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    border: 0;
+}
+
+footer h3 {
+    font-family: serif;
+    font-style: italic;
+    color: white;
+}
+
+footer p {
+    color: lightskyblue;
+    text-align: center;
 }
